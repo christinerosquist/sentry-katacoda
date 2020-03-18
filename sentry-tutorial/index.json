@@ -17,8 +17,6 @@
             }
         ],
         "intro": {
-            "courseData": "run-init.sh",
-            "code": "set-env.sh",
             "text": "intro.md"
         },
         "finish": {
@@ -31,7 +29,7 @@
     "environment": {
         "uilayout": "editor-terminal",
         "uisettings": "javascript",
-        "uieditorpath": "/sentry-katacoda/tree/master/sentry-tutorial/sample-app",
+        "uieditorpath": "/root&sentry-katacoda/tree/master/sentry-tutorial/sample-app/src",
         "showdashboard": true,
         "hideintro": false,
         "dashboards": [{"name":"Local Web Browser","port":8080}],
