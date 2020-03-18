@@ -31,7 +31,7 @@
     "environment": {
         "uilayout": "editor-terminal",
         "uisettings": "javascript",
-        "uieditorpath": "/root/sentry-katacoda/sentry-tutorial/sample-app/src",
+        "uieditorpath": "/sentry-katacoda/tree/master/sentry-tutorial/sample-app",
         "showdashboard": true,
         "hideintro": false,
         "dashboards": [{"name":"Local Web Browser","port":8080}],
