@@ -38,7 +38,7 @@
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal. Here you can execute all the different commands.\u001b[m\r\n"
     },
     "backend": {
-        "imageid": "nodejs",
+        "imageid": "node",
         "port": 8443
     }
 }
