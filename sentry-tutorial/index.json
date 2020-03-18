@@ -17,8 +17,6 @@
             }
         ],
         "intro": {
-            "courseData": "run-init.sh",
-            "code": "set-env.sh",
             "text": "intro.md"
         },
         "finish": {
@@ -31,14 +29,12 @@
     "environment": {
         "uilayout": "editor-terminal",
         "uisettings": "javascript",
-        "uieditorpath": "root/projects/DevOps/sentry-katacoda/sentry-tutorial/sample-app",
+        "uieditorpath": "root/sample-app",
         "showdashboard": true,
         "hideintro": false,
-        "dashboards": [{"name":"Local Web Browser","port":8080}],
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal. Here you can execute all the different commands.\u001b[m\r\n"
     },
     "backend": {
-        "imageid": "node",
-        "port": 8443
+        "imageid": "node6",
     }
 }
