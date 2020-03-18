@@ -1,49 +1,17 @@
 {
-  "title": "Sentry.io",
-  "description": "Tutorial on sentry.io",
-  "difficulty": "Intermediate",
-  "time": "10",
+  "title":  "Sentry.io with Node.js framework",
+  "description": "Tutorial on how to get Sentry.io to work on your Node.js application.",
+  "difficulty": "Beginner",
+  "time": "15",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1 - Install Sentry.io",
         "text": "step1.md"
       },
       {
         "title": "Step 2",
         "text": "step2.md"
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md"
-      },
-      {
-        "title": "Step 4",
-        "text": "step4.md"
-      },
-      {
-        "title": "Step 5",
-        "text": "step5.md"
-      },
-      {
-        "title": "Step 6",
-        "text": "step6.md"
-      },
-      {
-        "title": "Step 7",
-        "text": "step7.md"
-      },
-      {
-        "title": "Step 8",
-        "text": "step8.md"
-      },
-      {
-        "title": "Step 9",
-        "text": "step9.md"
-      },
-      {
-        "title": "Step 10",
-        "text": "step10.md"
       }
     ],
     "intro": {
