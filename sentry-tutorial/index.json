@@ -34,7 +34,7 @@
         "uieditorpath": "/root/projects/DevOps/sentry-katacoda/sentry-tutorial/nodejs",
         "showdashboard": true,
         "hideintro": false,
-        "dashboards": [{"name":"Local Web Browser","port":8080}, {"name": "Sample Application", "port": 80}],
+        "dashboards": [{"name":"Local Web Browser","port":8080}],
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal. Here you can execute all the different commands.\u001b[m\r\n"
     },
     "backend": {
