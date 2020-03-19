@@ -1,7 +1,7 @@
 {
     "pathwayTitle": "Tutorial on how to use Sentry.io on an existing Node.js application",
     "icon": "fa-node",
-    "title": "Getting Started with Sentry.io using Node.js",
+    "title": "Getting Started with Sentry.io",
     "description": "In this scenario you will learn more about Sentry.io and how to set up the platform on an existing Node.js application.",
     "difficulty": "Beginner",
     "time": "10 minutes",
@@ -9,7 +9,8 @@
         "steps": [
             {
                 "title": "Examine the sample project",
-                "text": "step1.md"
+                "text": "step1.md",
+                "courseData": "set-env.sh"
             },
             {
                 "title": "Set-up Sentry.io",
@@ -17,28 +18,27 @@
             }
         ],
         "intro": {
-            "courseData": "run-init.sh",
-            "code": "set-env.sh",
             "text": "intro.md"
         },
         "finish": {
           "text": "finish.md"
-        }
+        },
+        "assets": {
+      "client": [
+          {"file": "app.js", "target": "/sample-app/src/app.js"},
+          {"file": "package.json", "target": "/sample-app/package.json"}
+      ]
+    }
     },
-    "files": [
-
-    ],
     "environment": {
         "uilayout": "editor-terminal",
         "uisettings": "javascript",
-        "uieditorpath": "/root/projects/DevOps/sentry-katacoda/sentry-tutorial/nodejs",
+        "uieditorpath": "/sample-app",
         "showdashboard": true,
         "hideintro": false,
-        "dashboards": [{"name":"Local Web Browser","port":8080}],
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal. Here you can execute all the different commands.\u001b[m\r\n"
     },
     "backend": {
-        "imageid": "nodejs",
-        "port": 8443
+        "imageid": "node6"
     }
 }
