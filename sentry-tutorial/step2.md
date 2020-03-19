@@ -12,7 +12,7 @@ First, write `clear`{{execute}} in order to clear the terminal-window.
 1. `cd sample-app/src`{{execute}}
 2. `vim App.js`{{execute}}
 
-Write `:e`in order to edit the file. Then insert this code block under the import-statements, but replace the key and project to what is shown at Sentry.io. 
+Write `:e`in order to edit the file. Then insert this code block under the import-statements, but replace `<key>` and `<project>` to what is shown at Sentry.io. 
 
 <pre class="file">
 {
