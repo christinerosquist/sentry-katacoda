@@ -9,8 +9,8 @@
         "steps": [
             {
                 "title": "Examine the sample project",
-                "text": "step1.md"
-                 "courseData": "set-env.sh"
+                "text": "step1.md",
+                "courseData": "set-env.sh"
             },
             {
                 "title": "Set-up Sentry.io",
