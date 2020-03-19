@@ -9,7 +9,7 @@ If you write `ls` you can list the different folders and look them through to ge
 
 *Firstly* we need to add the Sentry package as a dependency, which is done by executing the commands stated below. Sentry captures data using an SDK within your application's runtime. These are platform specific and allow Sentry to have a deep understanding of how your application works. This tutorial is made when using Node.js. 
 
-1. `cd sample-app`{{execute}}
+1. Navigate to the application-folder: `cd sample-app`{{execute}} 
 
-2. `npm install @sentry/node@5.14.1`{{execute}}
+2. Install the Sentry package: `npm install @sentry/node@5.14.1`{{execute}}
 
