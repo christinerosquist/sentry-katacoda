@@ -34,7 +34,7 @@
     "environment": {
         "uilayout": "editor-terminal",
         "uisettings": "javascript",
-        "uieditorpath": "/sample-app",
+        "uieditorpath": "/home/sample-app/",
         "showdashboard": true,
         "hideintro": false,
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal. Here you can execute all the different commands.\u001b[m\r\n"
