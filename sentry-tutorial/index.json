@@ -9,7 +9,8 @@
         "steps": [
             {
                 "title": "Examine the sample project",
-                "text": "step1.md"
+                "text": "step1.md",
+                "courseData": "set-env.sh"
             },
             {
                 "title": "Set-up Sentry.io",
@@ -21,15 +22,7 @@
         },
         "finish": {
           "text": "finish.md"
-        },
-        "assets": {
-      "client": [
-          {
-            "file": "package.json", "target": "/home/sample-app/", "chmod": "+x",
-            "file": "src/App.js", "target": "/home/sample-app/", "chmod": "+x"
-          }
-      ]
-    }
+        }
     },
     "environment": {
         "uilayout": "terminal",
