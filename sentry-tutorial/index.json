@@ -21,11 +21,16 @@
         },
         "finish": {
           "text": "finish.md"
-        }
+        },
+        "assets": {
+      "client": [
+          {"file": "app.js", "target": "/root/service-nodejs"},
+          {"file": "package.json", "target": "/root/service-nodejs"},
+          {"file": "keycloak.json", "target": "/root/service-nodejs"},
+          {"file": "katacoda.json", "target": "/root"}
+      ]
+    }
     },
-    "files": [
-       "app.js"
-    ],
     "environment": {
         "uilayout": "editor-terminal",
         "uisettings": "javascript",
