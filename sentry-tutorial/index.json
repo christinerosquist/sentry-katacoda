@@ -25,15 +25,15 @@
         },
         "assets": {
       "client": [
-          {"file": "app.js", "target": "/root/sample-app/src/app.js"},
-          {"file": "package.json", "target": "/root/sample-app/package.json"}
+          {"file": "app.js", "target": "/sample-app/src/app.js"},
+          {"file": "package.json", "target": "/sample-app/package.json"}
       ]
     }
     },
     "environment": {
         "uilayout": "editor-terminal",
         "uisettings": "javascript",
-        "uieditorpath": "/root/sample-app",
+        "uieditorpath": "/sample-app",
         "showdashboard": true,
         "hideintro": false,
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal. Here you can execute all the different commands.\u001b[m\r\n"
