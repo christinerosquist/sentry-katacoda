@@ -24,3 +24,6 @@ Write `:e`in order to edit the file. Then insert this code block under the impor
 Then press the esc-button and write `:wq` to save the file and exit. If you now write `cat App.js` you can see the changes made to the file.
 
 
+TODO: Skriv att man ska köra npm start och sen trycka på Sample Application för att se applikationen som nu körs. 
+
+
