@@ -1,6 +1,4 @@
-# Welcome to the first step of the tutorial.
-
-You have now got access to a terminal that contains a folder named *sample-app*, which contains a basic Node.js application. 
+You have now gotten access to a terminal that contains a folder named *sample-app*, which contains a basic Node.js application. 
 In this step we will tell you what you need to change in the different files of the application, in order to use *Sentry.io* on it.
 
 # Familiarize yourself with the application
