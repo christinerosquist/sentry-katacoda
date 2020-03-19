@@ -13,9 +13,11 @@
                 "courseData": "set-env.sh"
             },
             {
-                "title": "Configure the SDK",
+                "title": "Configure the SDK and run the application",
                 "text": "step2.md"
-            }
+            }, 
+                "title": "Test Sentry.io with your application",
+                "text": "step3.md"
         ],
         "intro": {
             "text": "intro.md"
