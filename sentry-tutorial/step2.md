@@ -1,0 +1,9 @@
+<pre class="file">
+{
+    "realm": "katacoda",
+    "bearer-only": true,
+    "auth-server-url": "https://[[HOST_SUBDOMAIN]]-8443-[[KATACODA_HOST]].environments.katacoda.com/auth",
+    "ssl-required": "external",
+    "resource": "service-nodejs"
+  }
+</pre>
