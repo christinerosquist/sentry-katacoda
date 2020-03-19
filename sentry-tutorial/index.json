@@ -26,8 +26,8 @@
         "assets": {
       "client": [
           {
-             {"file": "package.json", "target": "/home/sample-app/", "chmod": "+x",
-            "file": "src/App.js", "target": "/home/sample-app/", "chmod": "+x"}
+             "file": "package.json", "target": "/home/sample-app/", "chmod": "+x",
+            "file": "src/App.js", "target": "/home/sample-app/", "chmod": "+x"
           }
       ]
     }
