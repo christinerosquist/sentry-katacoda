@@ -25,11 +25,8 @@
         },
         "assets": {
       "client": [
-          {"file": "package.json", "target": "~/"}
-      ],
-    "host01": [
-      {"file": "package.json", "target": "~/"}
-    ]
+          {"file": "package.json", "target": "/home/sample-app/", "chmod": "+x"}
+      ]
     }
     },
     "environment": {
