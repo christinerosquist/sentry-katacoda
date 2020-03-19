@@ -25,9 +25,11 @@
         },
         "assets": {
       "client": [
-          {"file": "app.js", "target": "/sample-app/src/app.js"},
-          {"file": "package.json", "target": "/sample-app/package.json"}
-      ]
+          {"file": "package.json", "target": "~/"}
+      ],
+    "host01": [
+      {"file": "package.json", "target": "~/"}
+    ]
     }
     },
     "environment": {
