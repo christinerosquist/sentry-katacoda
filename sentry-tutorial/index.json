@@ -1,7 +1,7 @@
 {
     "pathwayTitle": "Tutorial on how to use Sentry.io on an existing Node.js application",
     "icon": "fa-node",
-    "title": "Getting Started with Sentry.io using Node.js",
+    "title": "Getting Started with Sentry.io",
     "description": "In this scenario you will learn more about Sentry.io and how to set up the platform on an existing Node.js application.",
     "difficulty": "Beginner",
     "time": "10 minutes",
