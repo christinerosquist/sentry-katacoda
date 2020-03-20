@@ -4,9 +4,7 @@ In the terminal provided, you have gotten access to a folder named *sample-app*,
 
 The *first* thing you need to do is to sign up for an account at https://sentry.io/signup/. Once you have signed up, you can create a new Sentry project. The e-mail you use will by default be used for all the Sentry-notifications. Choose React.js as the platform you will use for the project. 
 
-![title](Images/SentryPlatform.PNG)
-
-**INSERT PIC OF HOW IT LOOKS**
+![SentryPlatform](Images/SentryPlatform.PNG)
 
 You will then need to add the Sentry package as a dependency, which is done by executing the commands stated below. Sentry captures data using an SDK within your application's runtime. These are platform specific and allow Sentry to have a deep understanding of how your application works. 
 
