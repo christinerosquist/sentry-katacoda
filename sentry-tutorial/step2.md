@@ -16,7 +16,7 @@ Write `:e`in order to edit the file. Then insert this code block under the impor
 
 <pre class="file">
 
-  const Sentry = require('@sentry/browser');
+  import * as Sentry from '@sentry/browser';
   Sentry.init({ dsn: 'https://KEY@sentry.io/PROJECT' }); 
  
 </pre>
