@@ -26,5 +26,5 @@ Then press the esc-button and write `:wq` to save the file and exit. If you now 
 
 If you now run `npm start`{{execute}}, the application will run. Press the tab *Sample Application* beside the Terminal to open the program. 
 
-If you have finished the steps above, press continue. 
+If you have finished the steps above, you can continue. 
 
