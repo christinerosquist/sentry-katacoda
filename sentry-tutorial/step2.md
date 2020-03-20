@@ -14,7 +14,7 @@ First, write `clear`{{execute}} in order to clear the terminal-window.
 
 Write `:e`in order to edit the file. Then insert this code block under the import-statements, but replace `KEY` and `PROJECT` to what is shown at Sentry.io. 
 
-<pre class="file">
+`<pre class="file">
 
   const Sentry = require('@sentry/browser');
   Sentry.init({ dsn: 'https://KEY@sentry.io/PROJECT' }); 
