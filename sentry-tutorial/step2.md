@@ -1,18 +1,19 @@
-After you completed the previous steps, which includes setting up a project in Sentry, you'll be given a value that is called DSN (Data Source Name). It looks a lot like a standard URL, but it’s actually just a representation of the configuration required by the Sentry SDKs. It consists of a few pieces, including the protocol, public key, the server address, and the project identifier.
+After you completed the previous step, which includes setting up a project in Sentry, you can go to your profile at https://sentry.io/. Start by clicking on **Projects** and choose the one that you just created. Scroll down the page and click on Client Keys (DSN).
 
-You need to inform the Sentry Node SDK about your DSN. How you do it is shown in the code-snippet below. You need to go to your account at 
-https://sentry.io/ to se what to replace `KEY` and `PROJECT` with. 
-    
-TODO: Visa bilder på hur det ser ut på hemsidan. 
+![alt_text](https://imgur.com/WwgGmvX.png "Sentry DNS")
 
-You will need to add this code to the App.js file. You can to this via the terminal by using Vim.
+DSN is a value that stands for Data Source Name. It looks a lot like a standard URL, but it’s actually just a representation of the configuration required by the Sentry SDKs. It consists of a few pieces, including the protocol, public key, the server address, and the project identifier. The text that is marked in yellow represents the `KEY` and the `PROJECT` value that you will need below. 
 
-First, write `clear`{{execute}} in order to clear the terminal-window. 
+![alt_text](https://imgur.com/kAC7kwd.png "Sentry DNS")
+
+You should init the Sentry browser SDK as soon as possible during your application load up, before initializing React. Therefore, you will need to modify the **App.js** file, which can be done vie the terminal by using [vim](https://www.vim.org/). 
+
+First, write `clear`{{execute}} in order to clear the terminal-window. Then follow this steps: 
 
 1. `cd src`{{execute}}
 2. `vim App.js`{{execute}}
 
-Write `:e`in order to edit the file. Then insert this code block under the import-statements, but replace `KEY` and `PROJECT` to what is shown at Sentry.io. 
+Write `:e` + enter in order to edit the file. Then add this code block under the import-statements, but replace `KEY` and `PROJECT` to what is shown at Sentry.io. 
 
 <pre class="file">
 
@@ -23,7 +24,7 @@ Write `:e`in order to edit the file. Then insert this code block under the impor
 
 Then press the esc-button and write `:wq` to save the file and exit. If you now write `cat App.js` you can see the changes made to the file.
 
+If you now run `npm start`{{execute}}, the application will run. Press the tab *Sample Application* beside the Terminal to open the program. 
 
-TODO: Skriv att man ska köra npm start och sen trycka på Sample Application för att se applikationen som nu körs. 
-
+If you have finished the steps above, press continue. 
 
