@@ -8,7 +8,7 @@ DSN is a value that stands for Data Source Name. It looks a lot like a standard 
 
 You should init the Sentry browser SDK as soon as possible during your application load up, before initializing React. Therefore, you will need to modify the **App.js** file, which can be done vie the terminal by using [vim](https://www.vim.org/). 
 
-First, write `clear`{{execute}} in order to clear the terminal-window. Then follow this steps: 
+First, write `clear`{{execute}} in order to clear the terminal-window. Then follow these steps: 
 
 1. `cd src`{{execute}}
 2. `vim App.js`{{execute}}
