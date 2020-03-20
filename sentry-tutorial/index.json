@@ -1,20 +1,24 @@
 {
-    "pathwayTitle": "Tutorial on how to use Sentry.io on an existing Node.js application",
+    "pathwayTitle": "Tutorial on how to use Sentry.io on an existing React application",
     "icon": "fa-node",
-    "title": "Getting Started with Sentry.io",
-    "description": "In this scenario you will learn more about Sentry.io and how to set up the platform on an existing Node.js application.",
+    "title": "Getting Started with Sentry.io using React",
+    "description": "In this scenario you will learn more about Sentry.io and how to set up the platform on an existing React.js application.",
     "difficulty": "Beginner",
     "time": "10 minutes",
     "details": {
         "steps": [
             {
-                "title": "Examine the sample project",
+                "title": "Start installing the Sentry.io SDK",
                 "text": "step1.md",
                 "courseData": "set-env.sh"
             },
             {
-                "title": "Set-up Sentry.io",
+                "title": "Configure the SDK and run the application",
                 "text": "step2.md"
+            }, 
+            {
+                "title": "Test Sentry.io with your application",
+                "text": "step3.md"
             }
         ],
         "intro": {
@@ -22,23 +26,18 @@
         },
         "finish": {
           "text": "finish.md"
-        },
-        "assets": {
-      "client": [
-          {"file": "app.js", "target": "/sample-app/src/app.js"},
-          {"file": "package.json", "target": "/sample-app/package.json"}
-      ]
-    }
+        }
     },
     "environment": {
-        "uilayout": "editor-terminal",
+        "uilayout": "terminal",
         "uisettings": "javascript",
-        "uieditorpath": "/sample-app",
         "showdashboard": true,
         "hideintro": false,
-        "uimessage1": "\u001b[32mYour Interactive Bash Terminal. Here you can execute all the different commands.\u001b[m\r\n"
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal. Here you can execute all the different commands.\u001b[m\r\n",
+         "dashboards": [{"name": "Sample Application", "port": 3000}]
     },
     "backend": {
-        "imageid": "node6"
+        "imageid": "node6",
+        "port": 3000
     }
 }
