@@ -14,7 +14,7 @@ Sentry provides self-hosted and cloud-based error monitoring to help software te
 ## The tutorial ##
 In this tutorial, we will show you how to get started with Sentry.io on a sample React-application. You will get an existing sample application and modify it in order to use Sentry.io with it. There is no need for any previous knowledge regarding Sentry, since we will guide you through the different steps in detail. 
 
-**PRESS START SCENARIO TO BEGIN!** 
+**Press start scenario to begin!** 
 
 ![alt text](https://blog.theodo.com/static/63d60039b4d984c7014f2b72544cf46c/3fa08/sentry-logo.png "Logo Sentry")
 
