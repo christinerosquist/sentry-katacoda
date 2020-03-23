@@ -6,14 +6,9 @@ DSN is a value that stands for Data Source Name. It looks a lot like a standard 
 
 ![alt_text](https://imgur.com/kAC7kwd.png "Sentry DSN")
 
-You should init the Sentry browser SDK as soon as possible during your application load up, before initializing React. Therefore, you will need to modify the **App.js** file, which can be done vie the terminal by using [vim](https://www.vim.org/). 
+You should init the Sentry browser SDK as soon as possible during your application load up, before initializing React. Therefore, you will need to modify the **App.js** file, which can be done via the editor. Go to `sample-app/src/App.js`{{open}}. 
 
-First, write `clear`{{execute}} in order to clear the terminal-window. Then follow these steps: 
-
-1. `cd src`{{execute}}
-2. `vim App.js`{{execute}}
-
-Write `:e` + enter in order to edit the file. Then add this code block under the import-statements, but replace `KEY` and `PROJECT` to what is shown at you profile on Sentry.io. 
+You then need to add this code block under the other import-statements, but replace `KEY` and `PROJECT` to what is shown at you profile on Sentry.io. 
 
 <pre class="file">
 
@@ -22,9 +17,4 @@ Write `:e` + enter in order to edit the file. Then add this code block under the
  
 </pre>
 
-Then press the esc-button and write `:wq` to save the file and exit. If you now write `cat App.js` you can see the changes made to the file.
-
-If you now run `npm start`{{execute}}, the application will run. Press the tab *Sample Application* beside the Terminal to open the program. 
-
-If you have finished the steps above, you can continue. 
-
+After you have added the code, you can continue. 
