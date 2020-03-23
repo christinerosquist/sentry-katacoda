@@ -16,6 +16,6 @@ This will *not* work, since there will be compilation errors (you try to access 
 
 Click on the tab *Sample Application* and notice that the program won't start. 
 
-If you now go to *Issues* under your Profile at Sentry.io, you should see an error-message on the page. 
+If you now go to *Issues* under your Profile at Sentry.io, you should see an error-message on the page. It can take a few minutes for the message to show up so be patient. 
 
-**This means that Sentry.io is configured correctly on the application! Continue to start exploring more of Sentry.**
+**When you see the error-message: This means that Sentry.io is configured correctly on the application! Continue to start exploring more of Sentry.**
