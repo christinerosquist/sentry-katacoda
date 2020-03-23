@@ -12,7 +12,7 @@ DevOps creates more visibility between teams and processes, which definitely is 
 Sentry provides self-hosted and cloud-based error monitoring to help software teams discover and prioritize errors in real-time. Sentry tracks errors in all majors languages and frameworks (like Node.js, PHP, C#, Java, Go, React, Angular, Vue, JavaScript), and it is also possible to integrate Sentry with many different apps/services. Sentry.io developer accounts are free, but there also exist commercial options for larger teams. 
 
 ## The tutorial ##
-In this tutorial, we will show you how to get started with Sentry.io on a sample React-application. You will get an existing sample application and modify it in order to use Sentry.io with it. There is no need for any previous knowledge regarding Sentry, since we will guide you through the different steps in detail. 
+In this tutorial, we will show you how to get started with Sentry.io on a sample React-application. You will modify an existing sample  application in order to use Sentry.io with it. There is no need for any previous knowledge regarding Sentry, since we will guide you through the different steps in detail. 
 
 **Press start scenario to begin!** 
 
