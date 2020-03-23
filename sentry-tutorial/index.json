@@ -31,9 +31,8 @@
         }
     },
     "environment": {
-        "uilayout": "terminal",
+        "uilayout": "editor-terminal",
         "uisettings": "javascript",
-        "uieditorpath":"assets/package.json",
         "showdashboard": true,
         "hideintro": false,
         "dashboards": [{"name": "Sample Application", "port": 3000}],
@@ -41,7 +40,7 @@
 
     },
     "backend": {
-        "imageid": "react",
+        "imageid": "node",
         "port": 3000
     }
 }
