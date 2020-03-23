@@ -2,7 +2,7 @@ In this step we will tell you how to start using Sentry.io on a sample React app
 
 # Explore the sample React-application
 
-A sample-application should be available in the editor now (it can take a while to generate all the files so if they have not showed up yet - be patient. You should see a folder named "Src"). You can browse through the different folders and files in the editor. To test the application, follow the steps below:
+A sample-application should be available in the editor now (it can take a while to generate all the files so if they have not showed up yet - be patient. You should see a folder named "src"). You can browse through the different folders and files in the editor. To test the application, follow the steps below:
 
 1. Go to the root of the application by running `cd sample-app`{{execute}} 
 
