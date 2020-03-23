@@ -31,8 +31,9 @@
         }
     },
     "environment": {
-        "uilayout": "editor-terminal",
+        "uilayout": "terminal",
         "uisettings": "javascript",
+        "uieditorpath":"assets/package.json",
         "showdashboard": true,
         "hideintro": false,
         "dashboards": [{"name": "Sample Application", "port": 3000}],
