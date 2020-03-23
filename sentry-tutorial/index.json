@@ -27,7 +27,7 @@
           "text": "finish.md"
         },
         "assets": {
-            "client": [{"file":"package.json", "target": "~/"}]
+            "client": [{"file":"sample-app", "target": "~/"}]
         }
     },
     "environment": {
