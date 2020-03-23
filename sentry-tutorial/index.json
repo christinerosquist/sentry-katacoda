@@ -9,8 +9,7 @@
         "steps": [
             {
                 "title": "Start installing the Sentry.io SDK",
-                "text": "step1.md",
-                "courseData": "set-env.sh"
+                "text": "step1.md"
             },
             {
                 "title": "Configure the SDK and run the application",
