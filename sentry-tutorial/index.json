@@ -33,7 +33,6 @@
     "environment": {
         "uilayout": "editor-terminal",
         "uisettings": "javascript",
-        "uieditorpath": "assets",
         "showdashboard": true,
         "hideintro": false,
         "dashboards": [{"name": "Sample Application", "port": 3000}],
