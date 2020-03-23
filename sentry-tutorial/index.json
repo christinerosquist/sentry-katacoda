@@ -27,7 +27,7 @@
           "text": "finish.md"
         },
         "assets": {
-            "client": [{"file":"src", "target": "~/"}]
+            "client": [{"file":"src/App.js", "target": "~/"}]
         }
     },
     "environment": {
