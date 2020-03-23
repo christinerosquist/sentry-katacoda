@@ -26,10 +26,13 @@
         },
         "finish": {
           "text": "finish.md"
+        },
+        "files": {
+            "client": [{"file":"package.json", "target": "~/"}]
         }
     },
     "environment": {
-        "uilayout": "terminal",
+        "uilayout": "editor-terminal",
         "uisettings": "javascript",
         "showdashboard": true,
         "hideintro": false,
@@ -37,7 +40,7 @@
          "dashboards": [{"name": "Sample Application", "port": 3000}]
     },
     "backend": {
-        "imageid": "node6",
+        "imageid": "react",
         "port": 3000
     }
 }
