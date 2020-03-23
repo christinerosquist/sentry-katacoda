@@ -1,17 +1,15 @@
 In this step we will tell you how to start using Sentry.io on a sample React application, by installing the Sentry SDK. 
 
-# Create a sample React-application
+# Explore the sample React-application
 
-You will start by creating a sample React-App that you will modify in order to use Sentry.io on it. Follow the steps below to create the sample application. 
+A sample-application should be available in the editor now (it can take a while to generate the files if they have not showed up yet - be patient). You can browse through the different folders and files in the editor. To test the application, follow the steps below:
 
-1. Create the application by running the following command in the terminal. It can take a while to generate the application, but when it is done you can see the application-files in the editor. `npm init react-app sample-app`{{execute}}
-
-2. Go to the root of the application by running `cd sample-app`{{execute}} 
+1. Go to the root of the application by running `cd sample-app`{{execute}} 
 
 3. Test that the application is working by writing `npm start`{{execute}}
 You can open the program if you click on the tab *Sample Application* beside the terminal. 
 
-The application is now ready!
+The application is now ready! Press `ctrl+C` to stop the server. 
 
 
 # Add Sentry package as a dependency
