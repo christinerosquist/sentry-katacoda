@@ -2,7 +2,7 @@ After you completed the previous step, which includes setting up a project in Se
 
 ![alt_text](https://imgur.com/WwgGmvX.png "Sentry DSN")
 
-DSN is a value that stands for Data Source Name. It looks a lot like a standard URL, but it’s actually just a representation of the configuration required by the Sentry SDKs. It consists of a few pieces, including the protocol, public key, the server address, and the project identifier. You can see your DNS value on the page Client Keys. Below is an example of how it should look. The text that is marked in yellow represents the `KEY` and the `PROJECT` value that you will need, but you should use the ones that are shown at your own Profile. 
+DSN is a value that stands for Data Source Name. It looks a lot like a standard URL, but it’s actually just a representation of the configuration required by the Sentry SDKs. It consists of a few pieces, including the protocol, public key, the server address, and the project identifier. You can see your DSN value on the page Client Keys. Below is an example of how it should look. The text that is marked in yellow represents the `KEY` and the `PROJECT` value that you will need, but you should use the ones that are shown at your own Profile. 
 
 ![alt_text](https://imgur.com/kAC7kwd.png "Sentry DSN")
 
