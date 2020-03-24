@@ -25,8 +25,31 @@ Want to see what *Event Grouping* looks like? Why won't you try it out yourself?
 2. Go back to Sentry.io and verify that the number of *Events* belonging to the *Issue* has now increased.
 
 ![Sentry Issues Stream](Images/SentryIssues.PNG '')
+ *Example of a Stream of Issues that each contain multiple events.*
 
-### Sorting and Filtering Issues
+---
+
+### Assigning Issues
+
+Issues have benefits other than Event Grouping. You can *assign* team members to specific Issues, giving them the responsibility to verify that the problem is solved (or come up with a solution).
+
+> *Note:* Assigning Issues to team members can be automated using the [Issue Owners](https://docs.sentry.io/workflow/issue-owners/) workflow!  
+
+
+### Resolving Issues
+
+When you have inspected an Issue and tried to solve the underlying problem, you might feel like you are done with the Issue. Sentry allows you to **resolve** the Issue, which removes it from the Issues Stream. 
+
+> *Note:* Receiving error events with the *same fingerprint* as your Issue will toggle it back to **Unresolved**!
+
+You can also *Snooze* an Issue if you want to wait for more events or just want to deal with it later, by pressing **Ignore**.
+
+If you already know what the Issue is you can go ahead and **Ignore** it by using the Ignore button.  
+You can basically *snooze* an Issue by specifying how long it should be ignored. The duration can either be **temporal** (Ignore for 30 minutes) or **quantitative** (Ignore the next 10 events).
+
+---
+
+### Sorting Issues
 
 Issues can be sorted by:
 
@@ -34,3 +57,28 @@ Issues can be sorted by:
 - Frequency
 - First Seen
 - Last Seen
+
+
+### Filtering Issues
+
+Issues can be filtered in multiple relevant ways, such as:
+
+- Status (*resolved*, *unresolved*, *ignored*, *assigned*, etc)
+- Assignee
+- Bookmarks
+- Time seen
+- **Tags**
+
+
+> *Note:* By pressing the Lever icon in the far right of the Issues Stream Search Bar you can access a more advanced search builder.
+
+> *Note:* You can share your filter queries with your project collaborators using the share button or by copying the URL that is created upon filtering.
+
+#### Tags?
+
+Now you might say:  
+*- Hey, what are **Tags?***  
+Well I'm glad you asked! 
+You can [Tag](https://docs.sentry.io/enriching-error-data/context/?platform=javascript#tagging-events) your error events with key-value pairs that is relevant to that specific event!  
+
+Let's continue on that path on the next page!
