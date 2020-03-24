@@ -10,11 +10,11 @@ You should init the Sentry browser SDK as soon as possible during your applicati
 
 You then need to add this code block under the other import-statements, but replace `KEY` and `PROJECT` to what is shown at you profile on Sentry.io. 
 
-<pre class="file">
+<code class="file">
 
   import * as Sentry from '@sentry/browser';
-  Sentry.init({ dsn: 'https://KEY@sentry.io/PROJECT' }); 
+  Sentry.init({ dsn: 'https://**KEY**@sentry.io/**PROJECT**' }); 
  
-</pre>
+</code>
 
 After you have added the code, you can continue. 
