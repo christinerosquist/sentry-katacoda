@@ -42,10 +42,8 @@ When you have inspected an Issue and tried to solve the underlying problem, you 
 
 > *Note:* Receiving error events with the *same fingerprint* as your Issue will toggle it back to **Unresolved**!
 
-You can also *Snooze* an Issue if you want to wait for more events or just want to deal with it later, by pressing **Ignore**.
-
 If you already know what the Issue is you can go ahead and **Ignore** it by using the Ignore button.  
-You can basically *snooze* an Issue by specifying how long it should be ignored. The duration can either be **temporal** (Ignore for 30 minutes) or **quantitative** (Ignore the next 10 events).
+You can also *snooze* an Issue by specifying how long it should be ignored. The duration can either be **temporal** (Ignore for 30 minutes) or **quantitative** (Ignore the next 10 events).
 
 ---
 
