@@ -14,7 +14,7 @@ You then need to add this code block under the other import-statements, but repl
 
   import * as Sentry from '@sentry/browser';
   Sentry.init({ dsn: 'https://**KEY**@sentry.io/**PROJECT**' }); 
- 
+
 </code>
 
 After you have added the code, you can continue. 
