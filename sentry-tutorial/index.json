@@ -1,18 +1,18 @@
 {
-    "pathwayTitle": "Tutorial on how to use Sentry.io on an existing React application",
+    "pathwayTitle": "How to use Sentry.io on an existing React application",
     "icon": "fa-node",
     "title": "Getting Started with Sentry.io using React",
-    "description": "In this scenario you will learn more about Sentry.io and how to set up the platform on an existing React.js application.",
+    "description": "Learn more about Sentry.io and how to set up the platform on an existing React.js application.",
     "difficulty": "Beginner",
-    "time": "10 minutes",
+    "time": "40 minutes",
     "details": {
         "steps": [
             {
-                "title": "Start installing the Sentry.io SDK",
+                "title": "Start with installing the Sentry.io SDK",
                 "text": "step1.md"
             },
             {
-                "title": "Configure the SDK and run the application",
+                "title": "Configure the SDK in the application",
                 "text": "step2.md"
             }, 
             {
