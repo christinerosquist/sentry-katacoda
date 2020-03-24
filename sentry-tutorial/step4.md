@@ -51,7 +51,7 @@ You can also *snooze* an Issue by specifying how long it should be ignored. The 
 
 Issues can be sorted by:
 
-- Priority (From high to low: *fatal, error, warning, info, debug* or *sample*)
+- Priority (Levels from high to low: *fatal, error, warning, info, debug* or *sample*)
 - Frequency
 - First Seen
 - Last Seen
