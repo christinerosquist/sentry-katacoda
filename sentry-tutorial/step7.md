@@ -1,26 +1,26 @@
 # What's next?
 
----
-
-Provide Sentry with state data to the error event (context, breadcrumbs etc) to improve tracability of the error (what was done prior to the error, like waypoints on the way to the error).
-
----
-
-When your application grows you might get too many errors to handle. In order to cut down on costs you can choose which transactions to send to Sentry by Sampling Transactions.
+There's so many cool things you can do with Sentry.io!  
+We can't cover them all in this tutorial, but feel free to explore these features on your own!
 
 ---
 
-Setup **Releases** so that you can trace *which commit* was active during the error. You could use `git rev-parse HEAD`  as a release name (*it should be unique*). This would specify which commit was setup when the error happened.
+### Distributed Tracing
+
+Tracing the path between different parts of your app can help in understanding which path an event has taken in your stack.  
+
+>*Example:* Connect a Front-end call to the Back-end using an **id** on the request so that both parts of your application share an error ID that can be used for identifying the request.
+
+Read more about it in the docs for [Distributed Tracing](https://docs.sentry.io/performance/distributed-tracing)!
+
+### Sampling Transactions
+
+When your application grows you might get too many error events to handle. In order to cut down on costs you can choose which transactions to send to Sentry by [Sampling Transactions](https://docs.sentry.io/performance/distributed-tracing/#sampling-transactions).
 
 ---
 
-Setup Issue owners so that you can trace WHO is responsible for following up on a certain type of error.
+### Releases
 
----
-
-Setting up Search Queries so that you can visualize your error data using the Discover tool. (not available in the free version)
-
----
+We recommend that you set up [Releases](https://docs.sentry.io/workflow/releases/) so that you can trace *which commit* was active during the error. This makes it a lot easier to figure out what release broke your code.
 
 
-Tracing the path between different parts of your app can help understanding which path an event has taken in your stack. Example: Connect a front end call to the back end using an ID on the request so that both parts of your application share an error ID that can be used for identifying the request.
