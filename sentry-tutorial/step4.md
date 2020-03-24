@@ -77,6 +77,7 @@ Issues can be filtered in multiple relevant ways, such as:
 Now you might say:  
 *- Hey, what are **Tags?***  
 Well I'm glad you asked! 
-You can [Tag](https://docs.sentry.io/enriching-error-data/context/?platform=javascript#tagging-events) your error events with key-value pairs that is relevant to that specific event!  
+You can [Tag](https://docs.sentry.io/enriching-error-data/context/?platform=javascript#tagging-events) your error events with key-value pairs that is relevant to that specific event.  
+These key-values will be forwarded to Sentry and are available in the error event, so that you can for example filter Issues based on tags. Cool!
 
-Let's continue on that path on the next page!
+Let's check out a similar concept on the next page!
