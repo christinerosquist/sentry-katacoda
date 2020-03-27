@@ -1,1 +1,1 @@
-npm init react-app sample-app
+https://github.com/christinerosquist/sample-app.git
