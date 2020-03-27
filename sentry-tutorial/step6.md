@@ -69,4 +69,10 @@ Let's try it out to verify that it works as intended!
 
 Press the `Sample Application` tab in the terminal again to trigger yet another error. When the error event shows up in the Issues Stream, it should also send you a notification in the channel you have chosen in your Slack Workspace!
 
+
+As you can see there are multiple actions available in the notification.
+If you know what's wrong you can resolve or ignore the Issue, or you can assign a team or a team member to the Issue right there in Slack!
+
+--- 
+
 Feels good right? Let's continue to the final chapter of this tutorial!
