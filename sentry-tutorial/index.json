@@ -8,6 +8,10 @@
     "details": {
         "steps": [
             {
+                "title": "Error Monitoring in DevOps",
+                "text": "step0.md"
+            },
+            {
                 "title": "Start with installing the Sentry.io SDK",
                 "text": "step1.md"
             },
