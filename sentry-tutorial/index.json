@@ -9,7 +9,9 @@
         "steps": [
             {
                 "title": "Error Monitoring in DevOps",
-                "text": "step0.md"
+                "text": "step0.md",
+                "courseData": "create-app.sh"
+
             },
             {
                 "title": "Start with installing the Sentry.io SDK",
@@ -42,7 +44,6 @@
         ],
         "intro": {
             "text": "intro.md",
-            "courseData": "create-app.sh"
         },
         "finish": {
           "text": "finish.md"
