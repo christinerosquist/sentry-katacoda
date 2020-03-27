@@ -7,7 +7,7 @@ The tutorial is structured the following way:
 - An introduction about error monitoring/Sentry and its role in DevOps
 - How to set up Sentry on an existing React-application
 - Monitoring features that Sentry provide
-- Easter-egg/Bonus: Integrate Sentry with Slack
+- Bonus: Integrate Sentry with Slack
 - *"What's next?"*: Suggestions on more cool things you can explore with Sentry!
 
 **Press START SCENARIO to begin!**  
