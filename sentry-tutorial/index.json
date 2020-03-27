@@ -60,7 +60,7 @@
 
     },
     "backend": {
-        "imageid": "node6",
+        "imageid": "react",
         "port": 3000
     }
 }
