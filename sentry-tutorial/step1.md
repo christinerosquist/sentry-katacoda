@@ -5,8 +5,8 @@ In this step we will tell you how to start using Sentry.io on a sample React app
 A sample-application should be available in the editor now (it can take a while to generate all the files so if they have not showed up yet - be patient. You should see a folder named "src"). You can browse through the different folders and files in the editor. To test the application, follow the steps below:
 
 1. Go to the root of the application by running `cd sample-app`{{execute}} 
-
-3. Test that the application is working by writing `npm start`{{execute}}
+2. Run `npm install`{{execute}} in order to install the required dependencies
+3. Test that the application is working by writing `npm start`{{execute}} in order to start a local server
 You can open the program if you click on the tab *Sample Application* beside the terminal. 
 
 The application is now ready! Press `ctrl+C` to stop the server. 
