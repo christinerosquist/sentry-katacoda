@@ -4,7 +4,7 @@
     "title": "Getting Started with Sentry.io using React",
     "description": "Learn more about Sentry.io and how to set up the platform on an existing React.js application.",
     "difficulty": "Beginner",
-    "time": "40 minutes",
+    "time": "30 minutes",
     "details": {
         "steps": [
             {
