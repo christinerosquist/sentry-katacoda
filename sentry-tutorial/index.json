@@ -43,7 +43,7 @@
             }
         ],
         "intro": {
-            "text": "intro.md",
+            "text": "intro.md"
         },
         "finish": {
           "text": "finish.md"
