@@ -9,3 +9,5 @@ The picture below illustrates the DevOps Lifecycle, and as you can see, monitori
 <p align="center">
   <img src="https://www.learntek.org/blog/wp-content/uploads/2018/02/DEVOPS-LIFE-CYCLE.png">
 </p>
+
+Now that you know why Sentry and Error Monitoring is important in Devops, you can continue the tutorial to learn how to set up Sentry on your own application!
