@@ -18,11 +18,25 @@ Wouldn't it be great if you could get a notification directly in your team's Sla
 In the left sidebar on Sentry.io, click on **Settings** to go to your organizations Settings page.  
 On the Organization Settings page, there will be another sidebar menu. Click on **Integrations** under *General Settings*.
 
+![Sentry Integration Settings](https://github.com/christinerosquist/sentry-katacoda/blob/master/sentry-tutorial/Images/SentryIntegrations.PNG?raw=true 'Sentry Integration Settings')
+ *This is the Integrations Settings page.*
+
 Choose the Slack Integration, and then press the `Add Workspace` button.
 
+![Sentry Slack Integration Settings](https://github.com/christinerosquist/sentry-katacoda/blob/master/sentry-tutorial/Images/SentryAddWorkspace.PNG?raw=true 'Sentry Slack Integration')
+ *Press the Add Workspace button.*
+
 You will see a popup *Slack Authorization* window, where you need to allow Sentry access to some parts of your Slack Workspace.  
-1. Begin by selecting which Slack Workspace you want to ingegrate with Sentry in the top right **Workspace** dropdown menu. Press **Continue**  
-2. Select which channels Sentry should have write access to. You can choose a specific channel or give it global access.
+
+![Choose Slack Workspace](https://github.com/christinerosquist/sentry-katacoda/blob/master/sentry-tutorial/Images/SentryAuthorizeSlack.PNG?raw=true 'Choose Slack Workspace')
+ *Choose a Slack Workspace.*
+
+1. Begin by selecting which Slack Workspace you want to ingegrate with Sentry in the top right **Workspace** dropdown menu. Then press **Continue**  
+2. Select which channels Sentry should have write access to. You can choose a specific channel or give it global access. Then press **Install**.
+3. You should now see Sentry joining your channel on Slack.
+
+![Sentry joins Slack](https://github.com/christinerosquist/sentry-katacoda/blob/master/sentry-tutorial/Images/SentryJoinsSlack.PNG?raw=true 'Sentry joins Slack')
+ *Sentry should join your Slack channel.*
 
 > *Note:* Sentry will only post alerts to the channel or person of your choice, and will not post anything until you configure alerts.
 
@@ -31,9 +45,16 @@ You will see a popup *Slack Authorization* window, where you need to allow Sentr
 
 Now that you have allowed Sentry access to your Slack Workspace, it's time to set up an alert notification!
 
+![Configure your Slack Integration](https://github.com/christinerosquist/sentry-katacoda/blob/master/sentry-tutorial/Images/SentryConfigureWorkspace.PNG?raw=true 'Configure your Slack Integration')
+ *Configure your Slack Integration.*
+
 - Press the **Configurations** tab on the Slack Integration page. You will see an overview of connected Slack Integrations.  
 - Locate your Slack Workspace and press **Configure**.
 - Under *PROJECT CONFIGURATION* you will find your Sentry project. Press the **Add Alert Rule** button.
+
+
+![Add Alert Rule](https://github.com/christinerosquist/sentry-katacoda/blob/master/sentry-tutorial/Images/SentryAddRule.PNG?raw=true 'Add Alert Rule')
+ *Add Alert Rule.*
 
 This is the New Alert page. Let's try setting up a rule!
 
@@ -41,6 +62,9 @@ This is the New Alert page. Let's try setting up a rule!
 Under *Configure Rule Conditions* you can select under which conditions Sentry should send a Slack notification. Press the **add condition** dropdown and choose **An event is seen**.
 
 Now we should select what action to perform when these conditions are met. We want to send a Slack notification. Press the **add an action** dropdown under *Perform these actions*, and choose **Send a notification to the {workspace} Slack workspace to {channel} and show tags {tags} in notification**.  
+
+![Create a new Alert Rule](https://github.com/christinerosquist/sentry-katacoda/blob/master/sentry-tutorial/Images/SentryNewAlertRule.PNG?raw=true 'Create a new Alert Rule')
+ *Create a new Alert Rule.*
 
 - Select your Slack workspace
 - Select a channel to post to
@@ -69,6 +93,8 @@ Let's try it out to verify that it works as intended!
 
 Press the `Sample Application` tab in the terminal again to trigger yet another error. When the error event shows up in the Issues Stream, it should also send you a notification in the channel you have chosen in your Slack Workspace!
 
+![Example Slack Notification](https://github.com/christinerosquist/sentry-katacoda/blob/master/sentry-tutorial/Images/SentrySlackNotification.PNG?raw=true 'Example Slack Notification')
+ *Example Slack Notification.*
 
 As you can see there are multiple actions available in the notification.
 If you know what's wrong you can resolve or ignore the Issue, or you can assign a team or a team member to the Issue right there in Slack!

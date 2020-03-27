@@ -24,7 +24,7 @@ Want to see what *Event Grouping* looks like? Why won't you try it out yourself?
 
 2. Go back to Sentry.io and verify that the number of *Events* belonging to the *Issue* has now increased.
 
-![Sentry Issues Stream](Images/SentryIssues.PNG '')
+![Sentry Issues Stream](https://github.com/christinerosquist/sentry-katacoda/blob/master/sentry-tutorial/Images/SentryIssues.PNG '')
  *Example of a Stream of Issues that each contain multiple events.*
 
 ---

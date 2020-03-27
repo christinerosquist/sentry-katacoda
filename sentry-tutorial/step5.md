@@ -4,14 +4,14 @@
 
 Let's look at an Issue! You should currently be looking at the Sentry.io Issues Stream. Now click on an Issue's title to learn what's inside!
 
-![Sentry Issue](Images/SentryIssue.PNG 'Sentry Issue')
+![Sentry Issue](https://github.com/christinerosquist/sentry-katacoda/blob/master/sentry-tutorial/Images/SentryIssue.PNG?raw=true 'Sentry Issue')
  *Example of an Issue.*
 
 You can see some details about the event, as well as the provided *Tags*.
 
 If you continue to scroll down you will see the Stacktrace of the error to the left, and statistics of all the Tags to the right:
 
-![Sentry Stacktrace](Images/SentryStackTrace.PNG 'Sentry Stacktrace')
+![Sentry Stacktrace](https://github.com/christinerosquist/sentry-katacoda/blob/master/sentry-tutorial/Images/SentryStackTrace.PNG?raw=true 'Sentry Stacktrace')
  *Example of a Stacktrace in an Issue.*
 
 The Stacktrace is a good place to start when you are trying to figure out what went wrong.
@@ -62,7 +62,7 @@ As our application breaks, we will receive a Sentry error event. If you locate t
 A new Breadcrumb should have appeared, with category **UsernameVariable** just like we specified, and with a *Hello* **message** containing the specified username!  
 Yay!
 
-![Sentry Breadcrumb](Images/SentryBreadcrumbs.PNG 'Sentry Breadcrumb')
+![Sentry Breadcrumb](https://github.com/christinerosquist/sentry-katacoda/blob/master/sentry-tutorial/Images/SentryBreadcrumbs.PNG?raw=true 'Sentry Breadcrumb')
  *Our example Breadcrumb contains the username `Alice`.*
 
 > *Note:* The Breadcrumbing process can be automated. For more information, see [Automatic Breadcrumbs](https://docs.sentry.io/enriching-error-data/breadcrumbs/?platform=javascript#automatic-breadcrumbs)
