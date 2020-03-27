@@ -1,4 +1,3 @@
-# What's next?
 
 There's so many cool things you can do with Sentry.io!  
 We can't cover them all in this tutorial, but feel free to explore these features on your own!

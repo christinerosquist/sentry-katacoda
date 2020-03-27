@@ -1,6 +1,8 @@
-# Issues
 
-## What's inside an issue?
+
+## Issues
+
+### What's inside an issue?
 
 Let's look at an Issue! You should currently be looking at the Sentry.io Issues Stream. Now click on an Issue's title to learn what's inside!
 
@@ -17,7 +19,7 @@ If you continue to scroll down you will see the Stacktrace of the error to the l
 The Stacktrace is a good place to start when you are trying to figure out what went wrong.
 
 
-# Breadcrumbs
+## Breadcrumbs
 
 So remember how we talked about Tags in the previous chapter? The beauty of tags is providing Sentry with relevant data to help us in tracing errors.  
 
@@ -26,11 +28,11 @@ Just like if someone stole cookies from your cookie jar, there's a useful way of
 
 Sentry lets you specify *Breadcrumbs* in your application, that logs structured data to Sentry at specific points (*chosen by you*) in your application. By using Breadcrumbs, you can follow the trail to see how you ended up with an error, just like a Stacktrace!
 
-## Breadcrumb structure
+### Breadcrumb structure
 
 A Breadcrumb typically consists of a **category**, a priority **level**, a **message** and/or **data**(mapped metadata that acts like a payload).
 
-## Adding a Breadcrumb
+### Adding a Breadcrumb
 
 Let's try it out for ourselves!
 

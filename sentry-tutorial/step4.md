@@ -1,4 +1,3 @@
-# Getting to know the Issues interface
 
 Now that we have successfully triggered our first error-event we would like to learn exactly what kind of monitoring features Sentry provides us. In this step we will explain how to use the Issues interface in depth.
 

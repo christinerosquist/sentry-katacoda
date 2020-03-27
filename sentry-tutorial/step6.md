@@ -1,5 +1,3 @@
-# Configure Notifications
-
 In this section we will configure which notifications to receive.
 
 ### Default Notifications
