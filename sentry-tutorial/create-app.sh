@@ -1,1 +1,1 @@
-https://github.com/christinerosquist/sample-app.git
+git clone https://github.com/christinerosquist/sample-app.git
