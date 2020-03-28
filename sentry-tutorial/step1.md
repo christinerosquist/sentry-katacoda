@@ -6,13 +6,12 @@ A sample-application should be available in the editor now (it can take a while 
 
 1. Go to the root of the application by running `cd sample-app`{{execute}} 
 
-2. Run `npm install`{{execute}} in order to install the required dependencies
+2. Run `npm install`{{execute}} in order to install the required dependencies.
 
-3. Test that the application is working by writing `npm start`{{execute}} in order to start a local server
+3. Test that the application is working by writing `npm start`{{execute}} in order to start a local server.
 You can open the program if you click on the tab *Sample Application* beside the terminal. 
 
 The application is now ready! Press `ctrl+C` to stop the server. 
-
 
 # Add Sentry package as a dependency
 
