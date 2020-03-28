@@ -1,6 +1,6 @@
 ## Tutorial about using Sentry.io with an existing React-application ##
 
-This tutorial is about *cloud-based error monitoring*, using Sentry.io. We will tell you about Sentry.io and why it is important in DevOps. Then we will show you how to get started with Sentry.io on a sample React-application. You will modify an existing sample  application in order to use Sentry.io with it. There is no need for any previous knowledge regarding Sentry, since we will guide you through the different steps in detail!
+This tutorial is about *cloud-based error monitoring*, using Sentry.io. We will tell you about Sentry.io and why it is important in DevOps. Then we will show you how to get started with Sentry.io on a sample React-application. You will modify an existing sample  application in order to use Sentry.io with it. There is no need for any previous knowledge regarding Sentry, since we will guide you through the different steps in detail! A lot of the information provided in this tutorial is based on Sentry's own [documentation](https://docs.sentry.io/). 
 
 The tutorial is structured the following way: 
 
