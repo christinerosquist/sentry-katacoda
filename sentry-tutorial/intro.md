@@ -10,5 +10,5 @@ The tutorial is structured the following way:
 - Bonus: Integrate Sentry with Slack
 - *"What's next?"*: Suggestions on more cool things you can explore with Sentry!
 
-**Press START SCENARIO to begin!**  
+**Press Start Scenario to begin!**  
 
