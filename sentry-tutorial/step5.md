@@ -55,11 +55,11 @@ Now that we have some data, we can add a Breadcrumb to App.js. Put the following
 
 ---
 
-Now rerun the application by running `npm start`{{execute}} in the terminal.
+Now rerun the application by running `npm start`{{execute}} in the terminal and click on the *Sample Application* tab.
 
-This will add a Breadcrumb of category **UsernameVariable** containing the given **username** in the **message** to any error event that passes through that part of our application!
+This will add a Breadcrumb of category **UsernameVariable** containing the given **username** in the **message** to any error event that passes through that part of our application!  
 
-As our application breaks, we will receive a Sentry error event. If you locate the corresponding Issue on Sentry.io you can scroll down to the **Breadcrumbs** section (*just underneath the Stacktrace*).  
+As our application breaks, we will receive a Sentry error event. Remember that it can take a while for the error to get captured. If you locate the corresponding Issue on Sentry.io you can scroll down to the **Breadcrumbs** section (*just underneath the Stacktrace*).  
 
 A new Breadcrumb should have appeared, with category **UsernameVariable** just like we specified, and with a *Hello* **message** containing the specified username!  
 Yay!
