@@ -11,15 +11,15 @@ A sample-application should be available in the editor now (it can take a while 
 3. Test that the application is working by writing `npm start`{{execute}} in order to start a local server.
 You can open the program if you click on the tab *Sample Application* beside the terminal. 
 
-The application is now ready! Press `ctrl+C` to stop the server. 
+The application is now ready! Press `ctrl+C` to stop the server, so that you can use the terminal. 
 
 # Get started with Sentry
 
 Since you now have an application - the next step is to integrate Sentry with it! 
 
-You need to sign up for an account at https://sentry.io/signup/ in order to use the platform. Once you have signed up, you can create a new Sentry project. When you sign up, you can choose KTH as your organization. The e-mail you use will by default be used for all the Sentry-notifications. 
+You need to sign up for an account at https://sentry.io/signup/ in order to use the platform. Once you have signed up, you can create a new Sentry project. When you sign up, you can choose KTH as your organization (or something else appropriate). The e-mail you use will by default be used for all the Sentry-notifications. 
 
-Once you have signed up, you can select platform for the project. In this tutorial we will use React, so please choose React.js as the platform you will use. Press *Create Project* after selecting the platform. After you have created your project, you can scroll up to the top of the page and press to *skip the onboarding* provided by Sentry (because you will use this tutorial instead!). You can leave the Sentry-page now, since **your first Sentry-project is created**, and you can continue exploring this tutorial! 
+Once you have signed up, you can select platform for the project. In this tutorial we will use React.js, so please choose React as the platform you will use. Press *Create Project* after selecting the platform. After you have created your project, you can scroll up to the top of the page and press to *skip the onboarding* provided by Sentry (because you will use this tutorial instead!). You can leave the Sentry-page now, since **your first Sentry-project is created**, and you can continue exploring this tutorial! 
 
 ![Sentry Platform](https://imgur.com/MQ18uY3.png "Sentry Platform")
 
