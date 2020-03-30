@@ -1,4 +1,4 @@
-After you completed the previous step, which includes setting up a project in Sentry, you can go to your profile at https://sentry.io/. Start by clicking on **Projects** in the left panel, and then click on the **#OrganizationName**. 
+After you completed the previous step, which includes setting up a project in Sentry, you can go to your profile at https://sentry.io/. Start by clicking on **Projects** in the left panel, and then click on the **#[Your Organizations Name]**. 
 
 ![Profile](https://imgur.com/ggrT5V6.png "Profile")
 
@@ -16,11 +16,13 @@ DSN is a value that stands for Data Source Name. It looks a lot like a standard 
 
 You should init the Sentry browser SDK as soon as possible during your application load up, before initializing React. Therefore, you will need to modify the **App.js** file, which can be done via the editor. Go to `sample-app/src/App.js`{{open}}. 
 
-You then need to add this code block under the other import-statements, but replace `KEY` and `PROJECT` to what is shown at you profile on Sentry.io. 
+You then need to add this code block under the other import-statements, but replace `KEY` and `PROJECT` to what is shown at you profile on Sentry.io. The picture below illustrates where to put the code and how it will look. 
 
 <pre class="file">
   import * as Sentry from '@sentry/browser';
   Sentry.init({ dsn: 'https://KEY@sentry.io/PROJECT' }); 
 </pre>
+
+![Code](https://imgur.com/DIDe1RD.png "Code example")
 
 After you have added the code, you can continue. 
