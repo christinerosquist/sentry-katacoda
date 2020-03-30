@@ -8,7 +8,7 @@ You will need to modify **App.js** in order to add the button. Click here to edi
 
 Add this code like shown in the picture below: `<button onClick={methodDoesNotExist}>Break the world</button>` 
 
-![App](https://imgur.com/Abqkz0L.png)
+![App](https://imgur.com/tX7Edaf.png "Button Added")
 
 You can now try to run the application again, with `npm start`{{execute}}
 
