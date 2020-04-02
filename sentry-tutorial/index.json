@@ -43,7 +43,8 @@
             }
         ],
         "intro": {
-            "text": "intro.md"
+            "text": "intro.md",
+            "courseData": "create-app.sh"
         },
         "finish": {
           "text": "finish.md" 
@@ -51,8 +52,8 @@
         "assets": {
       "client": [
         {
-          "file": "create-app.sh",
-          "target": "~/"
+          "file": "*",
+          "target": "/root"
         }
       ]
     }
