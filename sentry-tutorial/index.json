@@ -50,8 +50,13 @@
           "text": "finish.md" 
         },
         "assets": {
-             "assets": { "host01": [ {"file": "*", "target": "~/"} ] }
+      "client": [
+        {
+          "file": "create-app.sh",
+          "target": "~/"
         }
+      ]
+    }
     },
     "environment": {
         "uilayout": "editor-terminal",
