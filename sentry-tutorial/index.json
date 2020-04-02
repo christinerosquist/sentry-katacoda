@@ -50,7 +50,7 @@
           "text": "finish.md" 
         },
         "assets": {
-             "assets": { "host01": [ {"file": "*", "target": "/root"} ] }
+             "assets": { "host01": [ {"file": "*", "target": "~/"} ] }
         }
     },
     "environment": {
