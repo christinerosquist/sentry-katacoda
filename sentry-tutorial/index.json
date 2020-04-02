@@ -47,10 +47,10 @@
             "text": "intro.md"
         },
         "finish": {
-          "text": "finish.md"
+          "text": "finish.md" 
         },
         "assets": {
-             "assets": { "host01": [ {"file": "*", "target": "/root"} ] }
+             "assets": { "host01": [ {"file": "*", "target": "create-app.sh"} ] }
         }
     },
     "environment": {
