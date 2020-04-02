@@ -43,13 +43,14 @@
             }
         ],
         "intro": {
-            "text": "intro.md"
+            "text": "intro.md",
+            "courseData": "create-app.sh"
         },
         "finish": {
           "text": "finish.md" 
         },
         "assets": {
-             "assets": { "host01": [ {"file": "create-app.sh", "target": "\root"} ] }
+             "assets": { "host01": [ {"file": "*", "target": "/root"} ] }
         }
     },
     "environment": {
