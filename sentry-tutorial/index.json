@@ -1,5 +1,5 @@
 {
-    noindex: true,
+    "noindex": true,
     "pathwayTitle": "How to use Sentry.io on an existing React application",
     "icon": "fa-node",
     "title": "Getting Started with Sentry.io using React",
