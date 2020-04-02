@@ -50,13 +50,8 @@
           "text": "finish.md" 
         },
         "assets": {
-      "client": [
-        {
-          "file": "*",
-          "target": "/root"
+        
         }
-      ]
-    }
     },
     "environment": {
         "uilayout": "editor-terminal",
