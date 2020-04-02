@@ -1,4 +1,5 @@
 {
+    noindex: true,
     "pathwayTitle": "How to use Sentry.io on an existing React application",
     "icon": "fa-node",
     "title": "Getting Started with Sentry.io using React",
@@ -51,10 +52,8 @@
         }
     },
     "environment": {
-        "uilayout": "editor-terminal",
-        "uisettings": "javascript",
+        "uilayout": "editor-terminal"
         "showdashboard": true,
-        "hideintro": false,
         "dashboards": [{"name": "Sample Application", "port": 3000}],
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal. Here you can execute all the different commands.\u001b[m\r\n"
 
