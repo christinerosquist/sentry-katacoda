@@ -62,6 +62,6 @@
 
     },
     "backend": {
-        "imageid": "node"
+        "imageid": "javascript"
     }
 }
