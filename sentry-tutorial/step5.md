@@ -6,7 +6,7 @@
 
 Let's look at an Issue! You should currently be looking at the Sentry.io Issues Stream. Now click on an Issue's title to learn what's inside!
 
-![Sentry Issue](https://github.com/christinerosquist/sentry-katacoda/blob/master/sentry-tutorial/assets/SentryIssue.PNG?raw=true 'Sentry Issue')
+![Sentry Issue](https://github.com/christinerosquist/sentry-katacoda/blob/master/sentry-tutorial/Images/SentryIssue.PNG?raw=true 'Sentry Issue')
  *Example of an Issue.*
 
 You can see some details about the event, as well as the provided *Tags*.
