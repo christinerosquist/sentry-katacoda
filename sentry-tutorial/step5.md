@@ -43,7 +43,7 @@ You can put it right after our Sentry initialization!
   const username = "Alice";
 </pre>
 
-Now that we have some data, we can add a Breadcrumb to App.js. Put the following on the line below the username variable we just created:
+Now that we have some data, we can add a Breadcrumb to `sample-app/src/App.js`{{open}}. Put the following on the line below the username variable we just created:
 
 <pre type="file">
   Sentry.addBreadcrumb({
