@@ -1,4 +1,8 @@
-After you completed the previous step, which includes setting up a project in Sentry, you can go to your profile at https://sentry.io/. Start by clicking on **Projects** in the left panel, and then click on the **#[Your Organizations Name]**. 
+After you completed the previous step, which includes setting up a project in Sentry, you can go to the Sentry dashboard at https://sentry.io/. Start by clicking on *Projects* in the left panel. 
+
+![Left Panel](https://imgur.com/y76yvA8.png "Left Panel")
+
+Then click on the *#[Your Organizations Name]*. 
 
 ![Profile](https://imgur.com/ggrT5V6.png "Profile")
 
