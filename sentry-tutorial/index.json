@@ -49,7 +49,7 @@
         "finish": {
           "text": "finish.md" 
         },
-        "assets": { "host01": [ {"file": "*", "target": "/home/scrapbook/tutorial"} ] }
+        "assets": { "client": [ {"file": "*", "target": "/home/scrapbook/tutorial"} ] }
     },
     "environment": {
         "uilayout": "editor-terminal",
