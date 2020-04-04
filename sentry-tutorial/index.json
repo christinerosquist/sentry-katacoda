@@ -48,8 +48,7 @@
         },
         "finish": {
           "text": "finish.md" 
-        },
-        "assets": {  }
+        }
     },
     "environment": {
         "uilayout": "editor-terminal",
