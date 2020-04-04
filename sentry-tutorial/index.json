@@ -53,13 +53,13 @@
     },
     "environment": {
         "uilayout": "editor-terminal",
-        "uisettings": "node6",
+        "uisettings": "reactjs",
         "showdashboard": true,
         "dashboards": [{"name": "Sample Application", "port": 3000}],
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal. \r\n"
 
     },
     "backend": {
-        "imageid": "docker"
+        "imageid": "node6"
     }
 }
