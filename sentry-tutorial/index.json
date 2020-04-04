@@ -53,7 +53,7 @@
     },
     "environment": {
         "uilayout": "editor-terminal",
-        "uieditorpath": "~/tutorial/sample-app"
+        "uieditorpath": "~/tutorial/sample-app",
         "showdashboard": true,
         "dashboards": [{"name": "Sample Application", "port": 3000}],
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal. \r\n"
