@@ -59,6 +59,6 @@
 
     },
     "backend": {
-        "imageid": "docker"
+        "imageid": "docker, node"
     }
 }
