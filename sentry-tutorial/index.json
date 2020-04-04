@@ -53,13 +53,13 @@
     },
     "environment": {
         "uilayout": "editor-terminal",
-        "uieditorpath": "create-app.sh",
         "showdashboard": true,
         "dashboards": [{"name": "Sample Application", "port": 3000}],
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal. \r\n"
 
     },
     "backend": {
-        "imageid": "node6"
+        "imageid": "node6",
+        "imageid":"docker"
     }
 }
