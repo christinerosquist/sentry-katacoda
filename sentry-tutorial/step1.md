@@ -17,7 +17,7 @@ The application is now ready! Press `ctrl+C` to stop the server, so that you can
 
 Since you now have an application - the next step is to integrate Sentry with it! 
 
-You need to sign up for an account at https://sentry.io/signup/ in order to use the platform. Once you have signed up, you can create a new Sentry project. When you sign up, you can choose KTH as your organization (or something else appropriate). The e-mail you use will by default be used for all the Sentry-notifications. Since you will need to switch a lot between Katacoda and Sentry, we suggest that you prepare a nice environment for that. For example, *open Sentry in a new window rather than a tab*. 
+You need to sign up for an account at https://sentry.io/signup/ in order to use the platform. Once you have signed up, you can create a new Sentry project. When you sign up, you can choose KTH as your organization (or something else appropriate). The e-mail you use will by default be used for all the Sentry-notifications. 
 
 Once you have signed up, you can select platform for the project. In this tutorial we will use React.js, so please choose React as the platform you will use. Press *Create Project* after selecting the platform. After you have created your project, you can scroll up to the top of the page and press to *skip the onboarding* provided by Sentry (because you will use this tutorial instead!). You can leave the Sentry-page now, since *your first Sentry-project is created*, and you can continue exploring this tutorial! 
 
