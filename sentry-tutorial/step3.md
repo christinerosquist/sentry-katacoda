@@ -1,4 +1,8 @@
-Sentry will now be configured on your application, so in this step we will guide you on how to test the error-monitoring. Before you try to trigger the error, make sure that you still can run the application by writing `npm start`{{execute}}. When you see that it works, you can continue! Remember that `Ctrl + C` stops the server. 
+Sentry will now be configured on your application, so in this step we will guide you on how to test the error-monitoring. Before you try to trigger the error, make sure that you still can run the application. 
+
+1. Go to the `sample-app` folder by writing `cd ~/tutorial/sample-app`{{execute}}. 
+
+2. Run `npm start`{{execute}}. When you see that it works, you can continue! Remember that `Ctrl + C` stops the server. 
 
 ## Trigger an error-event on Sentry.io ##
 

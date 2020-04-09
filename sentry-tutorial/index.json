@@ -10,8 +10,8 @@
         "steps": [
             {
                 "title": "Error Monitoring in DevOps",
-                "text": "step0.md", 
-                "courseData": "create-app.sh"
+                "text": "step0.md"
+
             },
             {
                 "title": "Start with installing the Sentry.io SDK",
@@ -43,20 +43,20 @@
             }
         ],
         "intro": {
-            "text": "intro.md"
+            "text": "intro.md",
+            "courseData": "create-app.sh"
         },
         "finish": {
-          "text": "finish.md"
+          "text": "finish.md" 
         },
-        "assets": {
-            "assets": { "host01": [ {"file": "*", "target": "/root"} ] }
-        }
+        "assets": { "host01": [ {"file": "*", "target": "/root"} ] }
     },
     "environment": {
         "uilayout": "editor-terminal",
+        "uisettings": "reactjs",
         "showdashboard": true,
         "dashboards": [{"name": "Sample Application", "port": 3000}],
-        "uimessage1": "\u001b[32mYour Interactive Bash Terminal. Here you can execute all the different commands.\u001b[m\r\n"
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal. \r\n"
 
     },
     "backend": {

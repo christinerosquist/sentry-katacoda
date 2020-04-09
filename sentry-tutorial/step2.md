@@ -1,4 +1,10 @@
-After you completed the previous step, which includes setting up a project in Sentry, you can go to your profile at https://sentry.io/. Start by clicking on **Projects** in the left panel, and then click on the **#[Your Organizations Name]**. 
+After you completed the previous step, which includes setting up a project in Sentry, you can go to the Sentry dashboard at https://sentry.io/. Since you will need to switch a lot between Katacoda and Sentry now, we suggest that you prepare a nice environment for that. For example, open Sentry in a new window rather than a tab, that you can have beside the Katacoda-tutorial. 
+
+Start by clicking on *Projects* in the left panel. 
+
+![Left Panel](https://imgur.com/y76yvA8.png "Left Panel")
+
+Then click on the *#[Your Organizations Name]*. 
 
 ![Profile](https://imgur.com/ggrT5V6.png "Profile")
 

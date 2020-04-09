@@ -19,17 +19,15 @@ Since you now have an application - the next step is to integrate Sentry with it
 
 You need to sign up for an account at https://sentry.io/signup/ in order to use the platform. Once you have signed up, you can create a new Sentry project. When you sign up, you can choose KTH as your organization (or something else appropriate). The e-mail you use will by default be used for all the Sentry-notifications. 
 
-Once you have signed up, you can select platform for the project. In this tutorial we will use React.js, so please choose React as the platform you will use. Press *Create Project* after selecting the platform. After you have created your project, you can scroll up to the top of the page and press to *skip the onboarding* provided by Sentry (because you will use this tutorial instead!). You can leave the Sentry-page now, since **your first Sentry-project is created**, and you can continue exploring this tutorial! 
+Once you have signed up, you can select platform for the project. In this tutorial we will use React.js, so please choose React as the platform you will use. Press *Create Project* after selecting the platform. After you have created your project, you can scroll up to the top of the page and press to *skip the onboarding* provided by Sentry (because you will use this tutorial instead!). You can leave the Sentry-page now, since *your first Sentry-project is created*, and you can continue exploring this tutorial! 
 
 ![Sentry Platform](https://imgur.com/MQ18uY3.png "Sentry Platform")
 
 
 # Add Sentry package as a dependency
 
-You will now need to add the Sentry package as a dependency, which is done by executing the commands stated below, in the terminal. Sentry captures data using an SDK within your application's runtime. These are platform specific and allow Sentry to have a deep understanding of how your application works. 
+You will now need to add the Sentry package as a dependency, which is done by executing the command stated below, in the terminal. Sentry captures data using an SDK within your application's runtime. These are platform specific and allow Sentry to have a deep understanding of how your application works. 
 
-1. Navigate to the application-folder (if you aren't standing there already): `cd sample-app`{{execute}} 
-
-2. Install the Sentry package: `npm install @sentry/browser`{{execute}}
+Install the Sentry package: `npm install @sentry/browser`{{execute}}
 
 When the installation is complete, you can continue to the next step of the tutorial!

@@ -1,10 +1,4 @@
-**Sentry.io** is an open-source platform that provides self-hosted and cloud-based
-error monitoring to help software teams discover and prioritize errors in real-time. 
-Sentry tracks errors in all majors languages and frameworks 
-(like *Node.js, PHP, C#, Java, Go, React, Angular, Vue, JavaScript*), and it is also 
-possible to integrate Sentry with many different apps/services. 
-For example, we will show you how to integrate Sentry with Slack! 
-The Sentry.io developer accounts are free, but there also exist commercial options for larger teams.
+[**Sentry.io**](https://sentry.io/) is an open-source platform that provides self-hosted and cloud-based error monitoring to help software teams discover and prioritize errors in real-time. Sentry tracks errors in all majors languages and frameworks (like Node.js, PHP, C#, Java, Go, React, Angular, Vue, JavaScript), and it is also possible to integrate Sentry with many different apps/services. For example, we will show you how to integrate Sentry with Slack! The Sentry.io developer accounts are free, but there also exist commercial options for larger teams.
 
 The term cloud in *cloud-based error monitoring*, refers to a set of web-hosted applications that stores 
 and allows access to data over the Internet - instead of on the hard drive of your computer. 
