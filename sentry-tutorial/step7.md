@@ -22,4 +22,7 @@ When your application grows you might get too many error events to handle. In or
 
 We recommend that you set up [Releases](https://docs.sentry.io/workflow/releases/) so that you can trace *which commit* was active during the error. This makes it a lot easier to figure out what release broke your code.
 
+If you want to do this we recommend enabling the [GitHub Integration](https://docs.sentry.io/workflow/integrations/global-integrations/#github) so that Sentry automatically adds information related to commits and pull requests to the Sentry issue.
+
+
 
