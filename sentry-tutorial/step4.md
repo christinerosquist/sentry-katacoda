@@ -32,6 +32,8 @@ Want to see what *Event Grouping* looks like? Why won't you try it out yourself?
 
 Issues have benefits other than Event Grouping. You can *assign* team members to specific Issues, giving them the responsibility to verify that the problem is solved (or come up with a solution).
 
+Go ahead and **assign yourself** to the *ReferenceError* issue by pressing the Assignee user icon to the far right, and choosing yourself in the dropdown.
+
 > *Note:* Assigning Issues to team members can be automated using the [Issue Owners](https://docs.sentry.io/workflow/issue-owners/) workflow!  
 
 
