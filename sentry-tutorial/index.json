@@ -60,6 +60,6 @@
 
     },
     "backend": {
-        "imageid": "node6"
+        "imageid": "node"
     }
 }
