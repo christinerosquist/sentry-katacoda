@@ -48,11 +48,12 @@
         },
         "finish": {
           "text": "finish.md" 
-        }
+        },
+        "assets": { "host01": [ {"file": "*", "target": "/root"} ] }
     },
     "environment": {
         "uilayout": "editor-terminal",
-        "uisettings": "node",
+        "uisettings": "reactjs",
         "showdashboard": true,
         "dashboards": [{"name": "Sample Application", "port": 3000}],
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal. \r\n"
